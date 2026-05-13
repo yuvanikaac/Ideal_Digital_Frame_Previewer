@@ -17,7 +17,7 @@ const frames = {
     },
     frame3: {
         src: "frame3.jpeg",
-        top: 48, left: 43, right: 40, bottom: 48,
+        top: 48, left: 35, right: 40, bottom: 48,
         size: "small",
         thickness: "thin"
     },
