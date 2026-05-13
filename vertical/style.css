@@ -1,0 +1,130 @@
+/*ideal logo*/
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* HEADINGS */
+h2 {
+    margin: 20px 0 10px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* FILTER SECTION */
+select {
+    padding: 10px 14px;
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* FRAME LIST CONTAINER */
+.frame-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+/* THUMBNAILS */
+.thumb {
+    width: 75px;
+    height: 120px;
+    object-fit: contain;
+    background: white;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.thumb:hover {
+    transform: translateY(-5px) scale(1.05);
+    border: 2px solid #666;
+}
+
+.thumb.active {
+    border: 3px solid #ff4d4d;
+    box-shadow: 0 8px 20px rgba(255,77,77,0.3);
+}
+
+/* UPLOAD INPUT */
+input[type="file"] {
+    margin: 15px 0 25px;
+    font-size: 14px;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* FRAME PREVIEW CARD */
+.frame-container {
+    position: relative;
+    width: 520px;
+    margin: 30px auto;
+   
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* FRAME IMAGE */
+.frame {
+    width: 100%;
+    display: block;
+}
+
+/* INNER IMAGE AREA */
+.inner-photo {
+    position: absolute;
+    overflow: hidden;
+}
+
+/* USER IMAGE */
+.inner-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: grab;
+    user-select: none;
+}
+
+/* BUTTON */
+button {
+    padding: 12px 25px;
+    font-size: 15px;
+    background: linear-gradient(135deg, #ff4d4d, #ff9966);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(255,77,77,0.3);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(255,77,77,0.5);
+}
