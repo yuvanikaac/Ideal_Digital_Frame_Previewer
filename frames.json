@@ -1,0 +1,105 @@
+{
+  "vertical": {
+
+    "6x4": {
+
+      "0.5 inch": [
+        "vertical/6x4/0.5inch/frame1.png",
+        "vertical/6x4/0.5inch/frame2.png",
+        "vertical/6x4/0.5inch/frame3.png",
+        "vertical/6x4/0.5inch/frame4.png",
+        "vertical/6x4/0.5inch/frame5.png",
+        "vertical/6x4/0.5inch/frame6.png"
+      ],
+
+      "1 inch": [
+        "vertical/6x4/1inch/frame1.png",
+        "vertical/6x4/1inch/frame2.png",
+        "vertical/6x4/1inch/frame3.png",
+        "vertical/6x4/1inch/frame4.png",
+        "vertical/6x4/1inch/frame5.png",
+        "vertical/6x4/1inch/frame6.png",
+        "vertical/6x4/1inch/frame7.png"
+      ]
+    },
+
+    "10x10": {
+
+      "1 inch": [
+        "vertical/10x10/1inch/frame1.png",
+        "vertical/10x10/1inch/frame2.png"
+      ]
+    },
+
+    "10x12": {
+
+      "1 inch": [
+        "vertical/10x12/1inch/frame1.png",
+        "vertical/10x12/1inch/frame2.png",
+        "vertical/10x12/1inch/frame3.png"
+      ]
+    },
+
+    "8x10": {
+
+      "0.5 inch": [
+        "vertical/8x10/0.5inch/frame1.png",
+        "vertical/8x10/0.5inch/frame2.png",
+        "vertical/8x10/0.5inch/frame3.png"
+      ]
+    }
+
+  },
+
+  "horizontal": {
+
+    "6x4": {
+
+      "0.5 inch": [
+        "horizontal/6x4/0.5inch/frame1.png",
+        "horizontal/6x4/0.5inch/frame2.png",
+        "horizontal/6x4/0.5inch/frame3.png",
+        "horizontal/6x4/0.5inch/frame4.png",
+        "horizontal/6x4/0.5inch/frame5.png",
+        "horizontal/6x4/0.5inch/frame6.png"
+      ],
+
+      "1 inch": [
+        "horizontal/6x4/1inch/frame1.png",
+        "horizontal/6x4/1inch/frame2.png",
+        "horizontal/6x4/1inch/frame3.png",
+        "horizontal/6x4/1inch/frame4.png",
+        "horizontal/6x4/1inch/frame5.png",
+        "horizontal/6x4/1inch/frame6.png",
+        "horizontal/6x4/1inch/frame7.png"
+      ]
+    },
+
+    "10x10": {
+
+      "1 inch": [
+        "horizontal/10x10/1inch/frame1.png",
+        "horizontal/10x10/1inch/frame2.png"
+      ]
+    },
+
+    "10x12": {
+
+      "1 inch": [
+        "horizontal/10x12/1inch/frame1.png",
+        "horizontal/10x12/1inch/frame2.png",
+        "horizontal/10x12/1inch/frame3.png"
+      ]
+    },
+
+    "8x10": {
+
+      "0.5 inch": [
+        "horizontal/8x10/0.5inch/frame1.png",
+        "horizontal/8x10/0.5inch/frame2.png",
+        "horizontal/8x10/0.5inch/frame3.png"
+      ]
+    }
+
+  }
+}

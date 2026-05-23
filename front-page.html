@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Frames</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+            overflow-x:hidden;
+            background:#f8f5f0;
+            color:#222;
+        }
+
+        /* HERO SECTION */
+
+        .hero{
+
+            min-height:100vh;
+
+            display:flex;
+            align-items:center;
+            justify-content:center;
+
+            padding:40px 8%;
+
+            position:relative;
+
+            background:
+            linear-gradient(
+                rgba(248,245,240,0.82),
+                rgba(248,245,240,0.88)
+            ),
+            url('vertical/frame1.jpeg');
+
+            background-size:cover;
+            background-position:center;
+
+        }
+
+        /* COLOR BLOBS */
+
+        .blob1{
+            position:absolute;
+            width:450px;
+            height:450px;
+            background:#ffcf96;
+            border-radius:50%;
+            top:-120px;
+            left:-120px;
+            filter:blur(90px);
+            opacity:0.45;
+        }
+
+        .blob2{
+            position:absolute;
+            width:380px;
+            height:380px;
+            background:#ff8ba7;
+            border-radius:50%;
+            bottom:-100px;
+            right:-80px;
+            filter:blur(90px);
+            opacity:0.35;
+        }
+
+        .blob3{
+            position:absolute;
+            width:300px;
+            height:300px;
+            background:#9fd8ff;
+            border-radius:50%;
+            top:40%;
+            right:20%;
+            filter:blur(80px);
+            opacity:0.28;
+        }
+
+        /* CONTENT */
+
+        .hero-content{
+            max-width:780px;
+            text-align:center;
+            position:relative;
+            z-index:5;
+
+            animation:fadeUp 1s ease;
+        }
+
+        /* LOGO */
+
+        .logo{
+            width:130px;
+            margin-bottom:25px;
+
+            filter:drop-shadow(0 8px 18px rgba(0,0,0,0.15));
+        }
+
+        /* HEADING */
+
+        h1{
+            font-size:4.4rem;
+            line-height:1.08;
+            margin-bottom:24px;
+            font-weight:800;
+            color:#111;
+        }
+
+        .highlight{
+            background:linear-gradient(135deg,#ff6b6b,#ff9f43,#8b5cf6);
+
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+        }
+
+        /* SUBTITLE */
+
+        .subtitle{
+            font-size:1.18rem;
+            line-height:1.9;
+            color:#444;
+
+            margin-bottom:45px;
+
+            max-width:650px;
+            margin-inline:auto;
+        }
+
+        /* BUTTONS */
+
+        .buttons{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .btn{
+
+            padding:17px 38px;
+
+            border-radius:60px;
+
+            text-decoration:none;
+
+            font-weight:600;
+
+            transition:0.35s ease;
+
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+
+            font-size:1rem;
+        }
+
+        .primary-btn{
+
+            background:linear-gradient(135deg,#111,#3d2b1f);
+
+            color:white;
+
+            box-shadow:0 12px 30px rgba(0,0,0,0.18);
+
+        }
+
+        .primary-btn:hover{
+
+            transform:translateY(-5px) scale(1.03);
+
+            box-shadow:0 18px 40px rgba(0,0,0,0.24);
+
+        }
+
+        .secondary-btn{
+
+            background:rgba(255,255,255,0.75);
+
+            backdrop-filter:blur(10px);
+
+            border:1px solid rgba(255,255,255,0.6);
+
+            color:#111;
+
+            box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+        }
+
+        .secondary-btn:hover{
+
+            transform:translateY(-5px) scale(1.03);
+
+            background:white;
+
+        }
+
+        /* FLOATING CARD */
+
+        .floating-card{
+
+            position:absolute;
+
+            bottom:40px;
+            right:40px;
+
+            background:rgba(255,255,255,0.82);
+
+            backdrop-filter:blur(12px);
+
+            padding:22px 26px;
+
+            border-radius:24px;
+
+            box-shadow:0 15px 35px rgba(0,0,0,0.14);
+
+            animation:float 3s ease-in-out infinite;
+
+            z-index:5;
+
+        }
+
+        .floating-card h3{
+            font-size:1rem;
+            margin-bottom:8px;
+            color:#111;
+        }
+
+        .floating-card p{
+            color:#555;
+            font-size:0.92rem;
+        }
+
+        /* SMALL BADGES */
+
+        .badges{
+
+            margin-top:38px;
+
+            display:flex;
+            justify-content:center;
+            gap:14px;
+            flex-wrap:wrap;
+
+        }
+
+        .badge{
+
+            background:white;
+
+            padding:12px 18px;
+
+            border-radius:50px;
+
+            font-size:0.92rem;
+
+            box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+            color:#444;
+
+        }
+
+        /* ANIMATIONS */
+
+        @keyframes fadeUp{
+
+            from{
+                opacity:0;
+                transform:translateY(40px);
+            }
+
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+
+        }
+
+        @keyframes float{
+
+            0%{
+                transform:translateY(0px);
+            }
+
+            50%{
+                transform:translateY(-10px);
+            }
+
+            100%{
+                transform:translateY(0px);
+            }
+
+        }
+
+        /* MOBILE */
+
+        @media(max-width:768px){
+
+            .hero{
+                padding:50px 6%;
+            }
+
+            h1{
+                font-size:2.8rem;
+            }
+
+            .subtitle{
+                font-size:1rem;
+                line-height:1.7;
+            }
+
+            .logo{
+                width:100px;
+            }
+
+            .floating-card{
+                display:none;
+            }
+
+            .btn{
+                width:100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <section class="hero">
+
+        <!-- BLOBS -->
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+        <div class="blob3"></div>
+
+        <!-- MAIN CONTENT -->
+        <div class="hero-content">
+
+            <img src="ideal logo.png" alt="Ideal Frames Logo" class="logo">
+
+            <h1>
+                Turn Your <span class="highlight">Memories</span><br>
+                Into Stunning <span class="highlight">Wall Art</span>
+            </h1>
+
+            <p class="subtitle">
+                Discover elegant frame collections, preview your photos instantly,
+                and create beautiful framed memories crafted with style and perfection.
+            </p>
+
+            <div class="buttons">
+
+                <a href="index.html" class="btn primary-btn">
+                    Explore Collections
+                </a>
+
+                <a href="index.html" class="btn secondary-btn">
+                    Start Custom Preview
+                </a>
+
+            </div>
+
+            <!-- BADGES -->
+            <div class="badges">
+
+                <div class="badge">✨ Premium Quality</div>
+
+                <div class="badge">🖼 Instant Preview</div>
+
+                <div class="badge">🎨 Stylish Collections</div>
+
+            </div>
+
+        </div>
+
+        <!-- FLOATING CARD -->
+        <div class="floating-card">
+
+            <h3>✨ Live Frame Preview</h3>
+
+            <p>
+                Upload • Customize • Preview • Order
+            </p>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
