@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Select Wall Colour</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../navigation.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <div class="logo-container">
+        <img src="../ideal logo.png" class="logo">
+    </div>
+
+    <div id="wizardNav" class="wizard-nav"></div>
+
+</div>
+
+<h1>Select Wall Colour</h1>
+
+<p class="subtitle">
+    Choose your wall colour
+</p>
+
+<div class="wall-colours">
+
+    <div class="colour-card"
+         data-colour="#ffffff"
+         style="background:#ffffff;">
+         White
+    </div>
+
+    <div class="colour-card"
+         data-colour="#f5f5dc"
+         style="background:#f5f5dc;">
+         Cream
+    </div>
+
+    <div class="colour-card"
+         data-colour="#e8dcc6"
+         style="background:#e8dcc6;">
+         Beige
+    </div>
+
+    <div class="colour-card"
+         data-colour="#d3d3d3"
+         style="background:#d3d3d3;">
+         Light Grey
+    </div>
+
+    <div class="colour-card dark-card"
+         data-colour="#6e6e6e"
+         style="background:#6e6e6e;">
+         Dark Grey
+    </div>
+
+    <div class="colour-card"
+         data-colour="#ffd6c2"
+         style="background:#ffd6c2;">
+         Peach
+    </div>
+
+    <div class="colour-card"
+         data-colour="#cfe8ff"
+         style="background:#cfe8ff;">
+         Light Blue
+    </div>
+
+    <div class="colour-card"
+         data-colour="#cdd9c3"
+         style="background:#cdd9c3;">
+         Sage Green
+    </div>
+
+</div>
+
+<div class="custom-colour-section">
+
+    <button id="customBtn">
+        🎨 Custom Colour
+    </button>
+
+    <input
+        type="color"
+        id="wallColorPicker"
+        value="#ffffff"
+        hidden
+    >
+
+</div>
+
+<button id="continueBtn">
+    Continue To Preview
+</button>
+
+<script src="../navigation.js"></script>
+
+<script>
+createNavigation(6);
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
