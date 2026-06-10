@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Frame Preview</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../navigation.css">
+</head>
+<body>
+
+<div class="top-bar">
+
+    <div class="logo-container">
+        <img src="ideal logo.png" alt="Logo" class="logo">
+    </div>
+
+    <div id="wizardNav" class="wizard-nav"></div>
+
+</div>
+
+<h2>Fit Your Image</h2>
+
+<h2>Upload Your Image</h2>
+
+<input type="file" id="upload" accept="image/*">
+
+<div class="frame-container">
+
+    <div class="inner-photo">
+        <img id="preview" src="">
+    </div>
+
+    <img id="frameImage" src="" class="frame">
+
+</div>
+
+<button onclick="window.location.href='../wall-selection/index.html'">
+    View On Wall
+</button>
+
+<script src="../navigation.js"></script>
+
+<script>
+createNavigation(5);
+</script>
+
+<script src="../frame-measurements.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
