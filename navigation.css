@@ -1,0 +1,79 @@
+.top-bar{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:flex-start;
+
+    gap:50px;
+
+    padding:20px 30px;
+
+}
+
+/* Logo area */
+.logo-container{
+
+    width:180px;
+
+    flex-shrink:0;
+
+}
+
+/* Navigation area */
+.wizard-nav{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    align-items:center;
+
+}
+
+.wizard-step{
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    background:#e5e5e5;
+
+    color:#555;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.wizard-step.active{
+
+    background:#1e88e5;
+
+    color:white;
+
+}
+
+.wizard-step.completed{
+
+    background:#4caf50;
+
+    color:white;
+
+}
+
+.wizard-step.disabled{
+
+    background:#ddd;
+
+    color:#999;
+
+    pointer-events:none;
+
+}
