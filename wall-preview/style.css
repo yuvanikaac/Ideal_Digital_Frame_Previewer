@@ -1,0 +1,123 @@
+
+
+body {
+
+    margin: 0;
+
+    font-family: Poppins, sans-serif;
+
+    background: #f3f3f3;
+
+}
+
+
+
+/* TOP BUTTONS */
+.wall-options {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    padding: 20px;
+
+    background: white;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.wall-options button {
+
+    padding: 12px 24px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    background: #222;
+
+    color: white;
+
+}
+
+/* WALL */
+.wall {
+
+    width: 100%;
+
+    height: 100vh;
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px;
+
+}
+/* FRAME */
+.frame-container {
+
+    position: relative;
+
+    width: 260px;
+
+    height: auto;
+
+    margin-top: -80px;
+
+    box-shadow:
+        0 25px 45px rgba(0,0,0,0.35),
+        0 8px 15px rgba(0,0,0,0.2);
+
+    transition: 0.3s ease;
+
+}
+.frame-container:hover {
+
+    transform: scale(1.02);
+
+}
+
+/* FRAME IMAGE */
+.frame {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+/* INNER IMAGE */
+.inner-photo {
+
+    position: absolute;
+
+    overflow: hidden;
+
+}
+
+/* USER IMAGE */
+.inner-photo img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
