@@ -18,8 +18,10 @@ body {
     left: 20px;
 }
 
-.logo {
-    width: 120px;
+.logo{
+    width:120px;
+    height:auto;
+    display:block;
 }
 
 /* TITLE */
