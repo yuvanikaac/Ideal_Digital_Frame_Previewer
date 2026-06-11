@@ -47,9 +47,91 @@
         "vertical/8x10/0.5inch/frame2.png",
         "vertical/8x10/0.5inch/frame3.png"
       ]
-    }
+    },
 
-  },
+ "30x40": {
+
+  "1.5 inch": [
+    "vertical/30x40/1.5inch/frame1.png",
+    "vertical/30x40/1.5inch/frame2.png"
+  ],
+
+  "2 inch": [
+    "vertical/30x40/2inch/frame1.png",
+    "vertical/30x40/2inch/frame2.png"
+  ]
+
+},
+ "16x20": {
+
+  "1.5 inch": [
+    "vertical/16x20/1.5inch/frame1.png",
+    "vertical/16x20/1.5inch/frame2.png"
+  ],
+
+  "2 inch": [
+    "vertical/16x20/2inch/frame1.png"
+    
+  ]
+
+},
+
+ "16x24": {
+
+  "1.5 inch": [
+    "vertical/16x24/1.5inch/frame1.png",
+    "vertical/16x24/1.5inch/frame2.png",
+    "vertical/16x24/1.5inch/frame3.png"
+
+  ],
+
+  "2 inch": [
+    "vertical/16x24/2inch/frame1.png"
+    
+  ]
+
+},
+
+
+ "20x24": {
+
+  "1.5 inch": [
+    "vertical/20x24/1.5inch/frame1.png",
+    "vertical/20x24/1.5inch/frame2.png"
+    
+
+  ],
+
+  "2 inch": [
+    "vertical/20x24/2inch/frame1.png"
+    
+  ]
+
+},
+ "20x30": {
+
+  "1.5 inch": [
+    "vertical/20x30/1.5inch/frame1.png",
+    "vertical/20x30/1.5inch/frame2.png",
+    "vertical/20x30/1.5inch/frame3.png"
+
+    
+
+  ],
+
+  "2 inch": [
+    "vertical/20x30/2inch/frame1.png"
+    
+  ]
+
+}
+
+
+
+
+  
+
+},
 
   "horizontal": {
 
@@ -99,7 +181,84 @@
         "horizontal/8x10/0.5inch/frame2.png",
         "horizontal/8x10/0.5inch/frame3.png"
       ]
-    }
+    },
+     "20x30": {
+
+  "1.5 inch": [
+    "horizontal/20x30/1.5inch/frame1.png",
+    "horizontal/20x30/1.5inch/frame2.png",
+    "horizontal/20x30/1.5inch/frame3.png"
+
+    
+
+  ],
+
+  "2 inch": [
+    "horizontal/20x30/2inch/frame1.png"
+    
+  ]
+
+},
+"30x40": {
+
+  "1.5 inch": [
+    "horizontal/30x40/1.5inch/frame1.png",
+    "horizontal/30x40/1.5inch/frame2.png"
+  ],
+
+  "2 inch": [
+    "horizontal/30x40/2inch/frame1.png",
+    "horizontal/30x40/2inch/frame2.png"
+  ]
+
+},
+
+"16x20": {
+
+  "1.5 inch": [
+    "horizontal/16x20/1.5inch/frame1.png",
+    "horizontal/16x20/1.5inch/frame2.png"
+  ],
+
+  "2 inch": [
+    "horizontal/16x20/2inch/frame1.png"
+    
+  ]
+
+},
+"20x24": {
+
+  "1.5 inch": [
+    "horizontal/20x24/1.5inch/frame1.png",
+    "horizontal/20x24/1.5inch/frame2.png"
+    
+
+  ],
+
+  "2 inch": [
+    "horizontal/20x24/2inch/frame1.png"
+    
+  ]
+
+},
+
+"16x24": {
+
+  "1.5 inch": [
+    "horizontal/16x24/1.5inch/frame1.png",
+    "horizontal/16x24/1.5inch/frame2.png",
+    "horizontal/16x24/1.5inch/frame3.png"
+
+  ],
+
+  "2 inch": [
+    "horizontal/16x24/2inch/frame1.png"
+    
+  ]
+
+}
+
+
 
   }
 }
