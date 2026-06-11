@@ -4,7 +4,7 @@ function createNavigation(currentStep) {
 
         {
             name: "Frame Size",
-            link: "../index.html"
+            link: "../frame-size.html"
         },
 
         {
